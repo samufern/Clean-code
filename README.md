@@ -1,78 +1,99 @@
-# Clean Code
+# Clean Code Project
 
-This repository showcases a project developed with an emphasis on clean code principles. It provides a set of guidelines and practical implementations to help developers write readable, maintainable, and efficient code.
+## 📌 Project Overview
+This project is focused on **clean coding practices** while implementing a simple **text encoding and decoding system**. It also includes functionality for handling JSON-based vaccine management requests.
 
-## Overview
+## 🚀 Getting Started
 
-The project adheres to strict coding standards as detailed in the accompanying documentation (*Normativa_de_codigo.pdf*). It includes a main application along with supporting modules and example projects that illustrate the application of clean code practices.
-
-## Features
-
-- **Clean Code Guidelines:** Comprehensive coding standards to ensure consistency and clarity.
-- **Well-Structured Project:** Organized into meaningful directories and modules for easy navigation.
-- **Practical Implementation:** Includes a main Python application (`Main.py`) and supporting components.
-- **Testing and Documentation:** Provides sample test files and a requirements file for environment setup.
-
-## Requirements
+### 📋 Prerequisites
+Ensure you have the following installed before running the project:
 
 - Python 3.x
-- All required Python packages are listed in [`requirements.txt`](requirements.txt).
+- PyBuilder (for project automation)
 
-## Installation
+Install dependencies using:
+```sh
+pip install -r requirements.txt
+```
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/samufern/Clean-code.git
-   ```
-2. **Navigate to the project directory:**
-   ```bash
-   cd Clean-code
-   ```
-3. **(Optional) Create and activate a virtual environment:**
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-4. **Install the required dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 🔧 Installation
+Clone the repository:
+```sh
+git clone https://github.com/your_username/Clean-Code.git
+cd Clean-Code
+```
 
-## Usage
+## 🏗 Project Structure
+```
+Clean-Code/
+│── Main.py                 # Main program execution
+│── requirements.txt        # Required dependencies
+│── test.json               # Test input file
+│── Normativa_de_codigo.pdf # Coding standards documentation
+│── Proyecto/               # Subdirectory for package-related files
+│    ├── README.md          # Documentation
+│    ├── build.py           # PyBuilder automation script
+│    ├── pyproject.toml     # Project build system configuration
+│    ├── setup.py           # Package installation setup
+│    ├── requirements.txt   # Additional dependencies
+│    ├── test_100.json
+│    ├── test_101.json
+│    ├── test_102.json
+│    ├── test_103.json
+│    ├── test_104.json
+│    ├── test_105.json
+│    ├── test_106.json
+│    ├── test_ok.json       # Expected successful cases
+│    ├── test_ok_2.json
+│    ├── JsonFiles/         # JSON test cases
+│        ├── cancelled_store.json
+│        ├── store_date.json
+│        ├── store_patient.json
+│        ├── store_patient_manipulated.json
+│        ├── store_vaccine.json
+│        ├── RF2/          # Additional JSON validation cases
+│            ├── store_patient_manipulated.json
+│            ├── test_dup_all.json
+│            ├── test_dup_char_plus.json
+│            ├── test_dup_colon.json
+│            ├── test_dup_comillas.json
+│            ├── test_dup_comma.json
+```
 
-Run the main application by executing:
-```bash
+## 🎯 Usage
+
+### Running the Main Program
+To run the main encoding/decoding functionality:
+```sh
 python Main.py
 ```
-This will launch the application and demonstrate the implementation of clean coding practices.
+This script encodes a given text and then decodes it to verify correctness.
 
-## File Structure
-
-```
-├── Main.py                      # Main application entry point
-├── Normativa_de_codigo.pdf      # Document detailing coding standards and guidelines
-├── Proyecto/                    # Directory containing the main project source code
-├── UC3MCare/                    # Additional project/module (e.g., a case study or specific component)
-├── requirements.txt             # List of required Python packages
-└── test.json                    # Sample test file for demonstration purposes
+### Running with JSON Input
+To test JSON-based request handling:
+```sh
+python Main.py test.json
 ```
 
-## Testing
+## ✅ Testing
+Test files are provided in the `Proyecto/JsonFiles/` directory, covering:
+- Vaccine storage scenarios
+- Patient data manipulation
+- Error detection in JSON formatting
 
-The repository includes sample test files (such as `test.json`) that you can use to validate the application. Run the tests or review the examples to verify the implementation and adherence to clean code principles.
+## 🛠 Built With
+- [Python 3](https://www.python.org/)
+- [PyBuilder](https://pybuilder.io/)
 
-## Documentation
+## 🤝 Contributing
+Feel free to fork the repository, make improvements, and submit a pull request.
 
-For a detailed explanation of the coding standards and practices applied, please refer to the [`Normativa_de_codigo.pdf`](Normativa_de_codigo.pdf) document included in this repository.
+## 📜 License
+No license file included. Please add one if necessary.
 
-## Contributing
+## 🎁 Acknowledgments
+Thanks to the developers contributing to PyBuilder for making project automation easier.
 
-Contributions, suggestions, and bug reports are welcome. Please open an issue or submit a pull request if you have improvements or fixes.
+---
+Made with ❤️ by [Your Name]
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more information.
-
-## Contact
-
-For any questions or further information, please contact me. 
