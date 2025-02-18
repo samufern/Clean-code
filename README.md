@@ -75,9 +75,4 @@ This project is licensed under the MIT License. See the LICENSE file for more in
 
 ## Contact
 
-For any questions or further information, please contact the repository owner.
-
----
-
-*Built with a focus on clean code principles to promote maintainability and best practices in software development.*
-```
+For any questions or further information, please contact me. 
