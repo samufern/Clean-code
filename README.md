@@ -88,12 +88,5 @@ Test files are provided in the `Proyecto/JsonFiles/` directory, covering:
 ## 🤝 Contributing
 Feel free to fork the repository, make improvements, and submit a pull request.
 
-## 📜 License
-No license file included. Please add one if necessary.
-
-## 🎁 Acknowledgments
-Thanks to the developers contributing to PyBuilder for making project automation easier.
 
 ---
-Made with ❤️ by [Your Name]
-
